@@ -1,0 +1,18 @@
+/* TopNavBar.css */
+.top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 5px;
+}
+
+.icons > * {
+  margin-left: 20px;
+  cursor: pointer;
+}

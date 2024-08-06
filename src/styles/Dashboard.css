@@ -1,0 +1,68 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  background-color: #1e1e1e;
+  padding: 20px;
+  overflow-y: auto; /* Allows vertical scrolling within the main content */
+}
+
+.left-column, .right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 3;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.stats, .activity-chart, .recent-orders,
+.net-profit, .info-sections, .feedback {
+  background: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+}
+
+.activity-chart, .info-sections {
+  flex: 1;
+}
+
+.net-profit, .info-sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.recent-orders, .feedback {
+  display: flex;
+}

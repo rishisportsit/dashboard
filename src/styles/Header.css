@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icons i {
+    cursor: pointer;
+  }
+  

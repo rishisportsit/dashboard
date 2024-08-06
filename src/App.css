@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.side-menu {
+  width: 250px;
+  background-color: #1f1f1f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.middle-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.recent-orders-container {
+  flex-grow: 1;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stat {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.stat-info {
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chart {
+  height: 300px;
+}
+
+.net-profit, .goals, .customer-feedback, .recent-orders {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.goal-item h3 {
+  margin-left: 10px;
+}
+
+.feedback {
+  margin-bottom: 10px;
+}
+
+.feedback .stars {
+  display: flex;
+}
+
+.feedback .stars span {
+  color: gold;
+}
+
+.order-info {
+  display: flex;
+  align-items: center;
+}
+
+.order-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.order-info span {
+  margin-right: 10px;
+}
+
+.order-info .pending {
+  color: orange;
+}
+
+.order-info .delivered {
+  color: green;
+}
+
+.order-info .cancelled {
+  color: red;
 }

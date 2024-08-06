@@ -1,0 +1,36 @@
+/* Stats.css */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2f2f2f;
+  padding: 20px;
+  color: white;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+}
+
+.stat-item > *:first-child {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.increase {
+  color: #4caf50;
+}
+
+.decrease {
+  color: #f44336;
+}

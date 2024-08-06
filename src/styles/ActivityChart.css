@@ -1,0 +1,8 @@
+/* ActivityChart.css */
+.activity-chart {
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  height: 300px;
+}

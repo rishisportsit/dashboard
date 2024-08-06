@@ -1,0 +1,14 @@
+.feedback {
+  background-color: #444;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.feedback h2 {
+  margin-top: 0;
+}
+
+.feedback-item {
+  margin-bottom: 1rem;
+}
