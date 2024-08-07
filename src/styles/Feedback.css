@@ -1,14 +1,61 @@
 .feedback {
-  background-color: #444;
+  background-color: #2e2e2e;
   color: #fff;
   padding: 1rem;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .feedback h2 {
   margin-top: 0;
 }
-
+.feedback p {
+  margin: 0;
+}
 .feedback-item {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.name {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.border {
+  border-bottom: 1px solid #4e4e4e;
+}
+.emmet {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.colapse {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback::-webkit-scrollbar {
+  width: 2px;
+}
+
+.feedback::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 20px;
+}
+
+.feedback::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+  border-radius: 20px;
+  border: 2px solid #1e1e1e;
+}
+
+.feedback {
+  scrollbar-width: thin;
+  scrollbar-color: #4e4e4e #1e1e1e;
 }

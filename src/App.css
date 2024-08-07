@@ -35,9 +35,7 @@
   margin-bottom: 20px;
 }
 
-.chart-container {
-  margin-bottom: 20px;
-}
+
 
 .recent-orders-container {
   flex-grow: 1;
@@ -66,7 +64,7 @@
   height: 300px;
 }
 
-.net-profit, .goals, .customer-feedback, .recent-orders {
+ .goals, .customer-feedback{
   background-color: #2e2e2e;
   padding: 20px;
   border-radius: 8px;
@@ -82,7 +80,7 @@
   margin-left: 10px;
 }
 
-.feedback {
+/* .feedback {
   margin-bottom: 10px;
 }
 
@@ -92,7 +90,7 @@
 
 .feedback .stars span {
   color: gold;
-}
+} */
 
 .order-info {
   display: flex;

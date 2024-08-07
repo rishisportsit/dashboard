@@ -2,16 +2,20 @@
 .info-sections {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   background-color: #2f2f2f;
   padding: 20px;
   border-radius: 10px;
   color: white;
+  height: 265px;
+  gap: 30px;
 }
 
 .info-section {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  gap: 50px;
 }
 
 .info-section > *:first-child {

@@ -1,16 +1,92 @@
-import React from 'react';
-import '../styles/Feedback.css';
+import React from "react";
+import "../styles/Feedback.css";
 
 const Feedback = () => (
   <div className="feedback">
-    <h2>Customer's Feedback</h2>
-    <div className="feedback-item">
-      <p>Great service!</p>
-      <p>⭐⭐⭐⭐⭐</p>
+    <div className="he">
+      <h2>Customer's Feedback</h2>
     </div>
-    <div className="feedback-item">
-      <p>Will order again.</p>
-      <p>⭐⭐⭐⭐</p>
+    <div className="colapse">
+      <div className="feedback-item">
+        <div className="name">RISHI</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>Great service!</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">NIKHIL</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐</p>
+          <p>Will order again.</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">RISHI</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>Great service!</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">NIKHIL</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐</p>
+          <p>Will order again.</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">RISHI</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>Great service!</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">NIKHIL</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐</p>
+          <p>Will order again.</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">RISHI</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>Great service!</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">NIKHIL</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐</p>
+          <p>Will order again.</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">RISHI</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>Great service!</p>
+        </div>
+      </div>
+      <div className="border"></div>
+      <div className="feedback-item">
+        <div className="name">NIKHIL</div>
+        <div className="emmet">
+          <p>⭐⭐⭐⭐</p>
+          <p>Will order again.</p>
+        </div>
+      </div>
+      <div className="border"></div>
     </div>
   </div>
 );

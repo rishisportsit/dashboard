@@ -3,8 +3,9 @@
   display: flex;
   justify-content: space-around;
   background-color: #2f2f2f;
-  padding: 20px;
+  padding: 35px;
   color: white;
+  border-radius: 10px;
 }
 
 .stat-item {
